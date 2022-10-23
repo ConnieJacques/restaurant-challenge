@@ -23,3 +23,9 @@ Dessert image credit - Pushpak Dsilva Unsplash
 Drinks image credit - Kobby Mendez Unsplash
 
 Icon credit -  Twitter Emoji - iconscout.com
+
+Facebook logo credit - https://fontawesome.com/v4/icon/facebook-official
+
+Instagram logo credit - https://fontawesome.com/v4/icon/instagram
+
+Cutlery igo credit - https://fontawesome.com/v4/icon/cutlery

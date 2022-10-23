@@ -23,6 +23,7 @@ Dessert image credit - Pushpak Dsilva Unsplash
 Drinks image credit - Kobby Mendez Unsplash
 
 Icon credit -  Twitter Emoji - iconscout.com
+<a href="https://iconscout.com/icons/pizza" target="_blank">Food Emoji Icon</a> by <a href="https://iconscout.com/contributors/twitter-inc" target="_blank">Twitter Emoji</a>
 
 Facebook logo credit - https://fontawesome.com/v4/icon/facebook-official
 

@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  border: 0;
   box-sizing: border-box;
 }
 
@@ -33,16 +34,36 @@
 .header .top-nav a {
   color: #445E74;
   text-decoration: none;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding: 0 10px 10px 10px;
 }
 
 main {
   background-color: #B0CEE8;
+  padding-top: 20px;
 }
 
+.image-links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .image-links img {
-  width: 80%;
+  width: 75vw;
+  transition: transform 1s;
+}
+.image-links a {
+  text-decoration: none;
+  font-size: 2em;
+  padding-bottom: 10px;
+  color: #445E74;
+  font-family: "Homemade Apple", cursive;
+}
+.image-links a:hover {
+  text-shadow: 2px 2px #E5EBF0;
+}
+.image-links img:hover {
+  transform: scale(0.95);
+  border: 2px solid white;
 }
 
 /*# sourceMappingURL=style.css.map */

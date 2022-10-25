@@ -33,6 +33,8 @@
 </header>
 <!-- End header -->
 
+<!-- Body -->
+<main>
  <!-- Side navigation bar to facebook/instgram/menulog-->
  <nav class="sidebar">
     <ul>
@@ -42,11 +44,26 @@
     </ul>
 </nav>
 <!-- End sticky bar nav -->
+    <section class="booking">
+        <form>
+            <label for="name">Name: </label><br>
+            <input type="text" id="name" name="name"></imput><br>
+            <label for="email">Email: </label><br>
+            <input type="email" id="email" name="email"></imput><br>
+            <label for="phone">Phone Number: </label><br>
+            <input type="tel" id="phone" name="phone"></imput><br>
+            <label type="text">Number of People Dining In: </label><br>
+            <input for="qdiners" id="qdiners" name="qdiners"></imput><br>
+            <label for="date">What day would you like to book for?</label><br>
+            <input type="date" id="date" name="date" value="2022-10-25" min="2022-10-25" max="2022-12-24"></imput><br>
+            <label for="time">What time would you like to come? </label><br>
+            <input type="time" id="time" name="time" min="18:00" max="21:00" required><br>
 
-<main class="booking">
-    
-
+            </label>
+        </form>
+    </section>
 </main>
+<!-- End body -->
 
 
     <!-- Footer -->

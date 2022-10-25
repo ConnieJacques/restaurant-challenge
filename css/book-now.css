@@ -45,12 +45,62 @@
   text-decoration: underline !important;
 }
 
-.main {
+body {
   background-color: #B0CEE8;
-  padding-bottom: 20px;
+}
+
+main {
+  background-color: #B0CEE8;
+  margin: 20% 0 20% 0;
   display: flex;
   justify-content: space-between;
   flex-direction: column;
+}
+main .booking {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50vw;
+  margin-left: 25%;
+  background-color: #B9CEA1;
+  border-radius: 15px;
+  border: 2px solid #E5EBF0;
+  padding: 20px 0 20px 0;
+  font-family: "Fuzzy Bubbles", cursive;
+  line-height: 1.5;
+  font-size: 1rem;
+  color: #445E74;
+}
+main .booking #name {
+  border-radius: 15px;
+  background-color: #E5EBF0;
+  color: #445e51;
+}
+main .booking #email {
+  border-radius: 15px;
+  background-color: #E5EBF0;
+  color: #445e51;
+}
+main .booking #phone {
+  border-radius: 15px;
+  background-color: #E5EBF0;
+  color: #445e51;
+}
+main .booking #qdiners {
+  border-radius: 15px;
+  background-color: #E5EBF0;
+  color: #445e51;
+}
+main .booking #date {
+  border-radius: 15px;
+  background-color: #E5EBF0;
+  color: #445e51;
+}
+main .booking #time {
+  border-radius: 15px;
+  background-color: #E5EBF0;
+  color: #445e51;
 }
 
 .sidebar {

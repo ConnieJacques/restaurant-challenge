@@ -61,6 +61,7 @@
   position: -webkit-sticky;
   position: sticky;
   top: 50vh;
+  bottom: 50vh;
   height: 30px;
 }
 .sidebar ul {
@@ -169,7 +170,7 @@ footer .copyright {
   .sidebar {
     width: 20vw;
     top: 60vh;
-    bottom: 80vh;
+    bottom: 100vh;
   }
   .sidebar ul {
     height: 30vh;

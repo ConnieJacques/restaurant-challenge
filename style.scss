@@ -66,6 +66,7 @@
     position: -webkit-sticky;
     position: sticky;
     top: 50vh;
+    bottom: 50vh;
     height: 30px;
     ul {
         list-style-type: none;
@@ -161,12 +162,15 @@ footer {
 }
 // End footer
 
+// Breakpoint - mobiles and tablets
 @media screen and (max-width: 768px) {
     footer iframe {
         display: none;
     }
 }
+// End breakpoint - mobile/tablet
 
+// Breakpoint - laptop/desktop
 @media screen and (min-width: 769px) {
     // header
     .header {
@@ -186,7 +190,6 @@ footer {
 .sidebar {
     width: 20vw;
     top: 60vh;
-    bottom: 80vh;
     ul {
         height: 30vh;
         a {
@@ -204,6 +207,5 @@ footer {
  }
 
 // End footer
-
-
 }
+// End breakpoint - desktop/laptop

@@ -10,6 +10,7 @@
     border-radius: 15px;
     background-color: #E5EBF0;
     color: #445e51;
+    font-size: 1rem;
 }
 
 // Header
@@ -74,31 +75,55 @@ main {
         background-color: #B9CEA1;
         border-radius: 15px;
         border: 2px solid #E5EBF0;
-        padding: 20px 0 20px 0;
+        padding: 5% 0 5% 0;
         font-family: 'Fuzzy Bubbles', cursive;
         line-height: 1.5;
         font-size: 1rem;
         color: #445E74;
+        label {
+            font-size: 1rem;
+        }
         #name {
-            @include form-style
+            @include form-style;
         }
         #email {
-            @include form-style
+            @include form-style;
         }
         #phone {
-            @include form-style
+            @include form-style;
         }
         #qdiners {
-            @include form-style
+            @include form-style;
         }
         #date {
-            @include form-style
+            @include form-style;
+            font-family: 'Fuzzy Bubbles', cursive;
         }
         #time {
-            @include form-style
+            @include form-style;
+            margin-bottom: 10%;
+            font-family: 'Fuzzy Bubbles', cursive;
+        }
+        .submit-booking {
+            width: 80%;
+            padding: 5%;
+            background-color: #445E74;
+            border-radius: 8px;
+            text-align: center;
+            transition: transform 2s;
+        }
+            .submit-booking:hover {
+                border: 2px solid #e5ebf0;
+                transform: scale(1.1);
+            }
+            button {
+                background-color: #445E74;
+                font-family: 'Fuzzy Bubbles', cursive;
+                color: #E5EBF0;
+                font-size: 2em;
+            }
         }
     }
-}
 
 
 // Sticky sidebar
@@ -177,12 +202,18 @@ footer {
     }
     // End header
 
+// Main
+.booking {
+    font-size: 3rem;
+}
+// End main
+
 // Sticky sidebar
 .sidebar {
     width: 20vw;
     top: 60vh;
     ul {
-        height: 30vh;
+        height: 50vh;
         a {
             font-size: 3.5rem;
         }

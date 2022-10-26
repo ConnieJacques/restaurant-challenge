@@ -20,15 +20,15 @@
 <!-- Header -->
 <header class="header">
     <div class="logo">
-        <img src="./images/pizza-icon.svg" alt="pizza logo">
+        <a href="./index.html"><img src="./images/pizza-icon.svg" alt="pizza logo"></a>
     </div>
     <h1>Pizza Restaurant</h1>
     <!-- Navigation bar -->
     <nav class="top-nav">
-        <a href="" target="_blank" rel="menu">Menu</a>
-        <a href="" target="_blank" rel="menu">Book Now</a>
-        <a href="/" target="_blank" rel="menu">Delivery</a>
-        <a href="" target="_blank" rel="menu">Contact Us</a>
+        <a href="" rel="menu">Menu</a>
+        <a href="./book-now.html" rel="menu">Book Now</a>
+        <a href="/" rel="menu">Delivery</a>
+        <a href="" rel="menu">Contact Us</a>
     </nav>
 </header>
 <!-- End header -->
@@ -45,7 +45,7 @@
 </nav>
 <!-- End sticky bar nav -->
     <section class="booking">
-        <form>
+        <form id="booking-form">
             <label for="name">Name: </label><br>
             <input type="text" id="name" name="name"></imput><br>
             <label for="email">Email: </label><br>
@@ -55,11 +55,12 @@
             <label type="text">Number of People Dining In: </label><br>
             <input for="qdiners" id="qdiners" name="qdiners"></imput><br>
             <label for="date">What day would you like to book for?</label><br>
-            <input type="date" id="date" name="date" value="2022-10-25" min="2022-10-25" max="2022-12-24"></imput><br>
+            <input type="date" id="date" name="date" value="2022-10-25" min="2022-10-25" max="2022-12-24" style="color: #445E74"></imput><br>
             <label for="time">What time would you like to come? </label><br>
-            <input type="time" id="time" name="time" min="18:00" max="21:00" required><br>
-
-            </label>
+            <input type="time" id="time" name="time" min="18:00" max="21:00" required style="color: #445E74;"></label><br>
+        </form>
+        <form action="book-now.html" method="post" class="submit-booking">
+            <button value="Submit" name="submit">Submit</button>
         </form>
     </section>
 </main>

@@ -66,41 +66,71 @@ main .booking {
   background-color: #B9CEA1;
   border-radius: 15px;
   border: 2px solid #E5EBF0;
-  padding: 20px 0 20px 0;
+  padding: 5% 0 5% 0;
   font-family: "Fuzzy Bubbles", cursive;
   line-height: 1.5;
   font-size: 1rem;
   color: #445E74;
 }
+main .booking label {
+  font-size: 1rem;
+}
 main .booking #name {
   border-radius: 15px;
   background-color: #E5EBF0;
   color: #445e51;
+  font-size: 1rem;
 }
 main .booking #email {
   border-radius: 15px;
   background-color: #E5EBF0;
   color: #445e51;
+  font-size: 1rem;
 }
 main .booking #phone {
   border-radius: 15px;
   background-color: #E5EBF0;
   color: #445e51;
+  font-size: 1rem;
 }
 main .booking #qdiners {
   border-radius: 15px;
   background-color: #E5EBF0;
   color: #445e51;
+  font-size: 1rem;
 }
 main .booking #date {
   border-radius: 15px;
   background-color: #E5EBF0;
   color: #445e51;
+  font-size: 1rem;
+  font-family: "Fuzzy Bubbles", cursive;
 }
 main .booking #time {
   border-radius: 15px;
   background-color: #E5EBF0;
   color: #445e51;
+  font-size: 1rem;
+  margin-bottom: 10%;
+  font-family: "Fuzzy Bubbles", cursive;
+}
+main .booking .submit-booking {
+  width: 80%;
+  padding: 5%;
+  background-color: #445E74;
+  border-radius: 8px;
+  text-align: center;
+  transition: transform 2s;
+}
+main .booking .submit-booking:hover {
+  border: 2px solid #e5ebf0;
+  transform: scale(1.1);
+}
+main .booking button {
+  background-color: #445E74;
+  font-family: "Fuzzy Bubbles", cursive;
+  color: #E5EBF0;
+  font-size: 2em;
 }
 
 .sidebar {
@@ -166,12 +196,15 @@ footer .copyright {
   .header .top-nav a {
     font-size: 2rem;
   }
+  .booking {
+    font-size: 3rem;
+  }
   .sidebar {
     width: 20vw;
     top: 60vh;
   }
   .sidebar ul {
-    height: 30vh;
+    height: 50vh;
   }
   .sidebar ul a {
     font-size: 3.5rem;
